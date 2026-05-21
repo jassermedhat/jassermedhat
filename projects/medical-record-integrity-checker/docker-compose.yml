@@ -1,0 +1,74 @@
+# Medical Record Integrity Checker
+# Standalone Docker Compose setup for this repository.
+
+services:
+  chain:
+    image: node:20-alpine
+    container_name: medical-integrity-chain
+    working_dir: /workspace/blockchain
+    command: sh -c "npm install && npx hardhat node --hostname 0.0.0.0"
+    ports:
+      - "8545:8545"
+    volumes:
+      - ./:/workspace
+      - blockchain_node_modules:/workspace/blockchain/node_modules
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8545', {method:'POST', headers:{'content-type':'application/json'}, body:JSON.stringify({jsonrpc:'2.0', id:1, method:'eth_blockNumber', params:[]})}).then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  final-deployer:
+    image: node:20-alpine
+    container_name: medical-integrity-deployer
+    working_dir: /workspace/blockchain
+    command: sh -c "npm install && npx hardhat compile && npx hardhat run scripts/deploy.js --network localhost"
+    environment:
+      RPC_URL: http://chain:8545
+    volumes:
+      - ./:/workspace
+      - blockchain_node_modules:/workspace/blockchain/node_modules
+    depends_on:
+      chain:
+        condition: service_healthy
+    restart: "no"
+
+  final-api:
+    image: node:20-alpine
+    container_name: medical-integrity-api
+    working_dir: /workspace/api
+    command: sh -c "npm install && npm start"
+    environment:
+      PORT: 3004
+      RPC_URL: http://chain:8545
+      LAB_ROOT: /workspace
+    ports:
+      - "3004:3004"
+    volumes:
+      - ./:/workspace
+      - api_node_modules:/workspace/api/node_modules
+    depends_on:
+      final-deployer:
+        condition: service_completed_successfully
+
+  final-frontend:
+    image: nginx:1.27-alpine
+    container_name: medical-integrity-frontend
+    ports:
+      - "8084:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    depends_on:
+      - final-api
+
+  final-pythonlab:
+    image: python:3.12-alpine
+    container_name: medical-integrity-python
+    working_dir: /workspace/python
+    command: tail -f /dev/null
+    volumes:
+      - ./:/workspace
+
+volumes:
+  blockchain_node_modules:
+  api_node_modules:

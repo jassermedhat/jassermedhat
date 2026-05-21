@@ -1,0 +1,12 @@
+{
+  "name": "medical-record-integrity-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational local blockchain demo for medical record hash integrity verification.",
+  "scripts": {
+    "compile": "npm --prefix blockchain run compile",
+    "test": "npm --prefix blockchain test",
+    "deploy:local": "npm --prefix blockchain run deploy:local",
+    "api:start": "npm --prefix api start"
+  }
+}
