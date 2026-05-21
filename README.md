@@ -18,10 +18,7 @@ I have hands-on experience in robotics competitions, embedded systems, AI model 
 - IntelliGlove: Smart glove for gesture recognition
 - Educational MCQ Generator using NLP
 - Multimodal AI System using Image, Speech, and Text
-- Medical Record Integrity Checker
-Educational blockchain prototype for verifying medical record integrity using SHA-256 hashes, Solidity, Hardhat, Express.js, and a vanilla JavaScript frontend.
-
-[View Project](projects/medical-record-integrity-checker)
+- [Medical Record Integrity Checker](projects/medical-record-integrity-checker)
 - YOLO-based object detection experiments
 - Airline Booking System
 
