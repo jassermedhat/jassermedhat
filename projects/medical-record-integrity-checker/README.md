@@ -16,7 +16,7 @@ This is an educational local demo using simulated Hardhat accounts. It is not in
 
 Watch the 2-minute walkthrough demo:
 
-[![Watch the demo](docs/screenshots/dashboard.png)]([YOUR_GOOGLE_DRIVE_LINK_HERE](https://drive.google.com/file/d/1o7zaiEWHfZ68W0090kigGokcSbBoAwUw/view?usp=drive_link))
+[![Watch the demo]([YOUR_GOOGLE_DRIVE_LINK_HERE](https://drive.google.com/file/d/1o7zaiEWHfZ68W0090kigGokcSbBoAwUw/view?usp=drive_link))]
 
 The demo shows the full workflow: selecting a role, registering a medical record, verifying a valid file, detecting an unknown/tampered file, viewing patient records, creating versions, and revoking a record.
 
