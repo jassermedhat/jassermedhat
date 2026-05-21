@@ -18,7 +18,7 @@ I have hands-on experience in robotics competitions, embedded systems, AI model 
 - IntelliGlove: Smart glove for gesture recognition
 - Educational MCQ Generator using NLP
 - Multimodal AI System using Image, Speech, and Text
-- [Medical Record Integrity Checker]([projects/medical-record-integrity-checker](https://github.com/jassermedhat/medical-record-blockchain-integrity.git))
+- [Medical Record Integrity Checker](https://github.com/jassermedhat/medical-record-blockchain-integrity)
 - YOLO-based object detection experiments
 - Airline Booking System
 
