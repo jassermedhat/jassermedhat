@@ -19,6 +19,7 @@ I have hands-on experience in robotics competitions, embedded systems, AI model 
 - Educational MCQ Generator using NLP
 - Multimodal AI System using Image, Speech, and Text
 - [Medical Record Integrity Checker](https://github.com/jassermedhat/medical-record-blockchain-integrity)
+- [RecomAI](https://github.com/jassermedhat/Recomai)
 - YOLO-based object detection experiments
 - Airline Booking System
 
