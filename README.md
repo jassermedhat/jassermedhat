@@ -18,7 +18,7 @@ I have hands-on experience in robotics competitions, embedded systems, AI model 
 - IntelliGlove: Smart glove for gesture recognition
 - Educational MCQ Generator using NLP
 - Multimodal AI System using Image, Speech, and Text
-- [visioncart](https://github.com/jassermedhat/visioncart-autonomous-checkout.git))
+- [visioncart](https://github.com/jassermedhat/visioncart-autonomous-checkout.git)
 - [Medical Record Integrity Checker](https://github.com/jassermedhat/medical-record-blockchain-integrity)
 - [RecomAI](https://github.com/jassermedhat/Recomai)
 - YOLO-based object detection experiments
