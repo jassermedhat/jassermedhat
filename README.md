@@ -15,7 +15,7 @@ I have hands-on experience in robotics competitions, embedded systems, AI model 
 - Competitive Programming
 
 ## Featured Projects
-- IntelliGlove: Smart glove for gesture recognition
+- [IntelliGlove](https://github.com/jassermedhat/IntelliGlove.git)
 - Educational MCQ Generator using NLP
 - Multimodal AI System using Image, Speech, and Text
 - [visioncart](https://github.com/jassermedhat/visioncart-autonomous-checkout.git)
