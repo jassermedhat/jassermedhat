@@ -11,7 +11,7 @@
   <a href="mailto:jasser782004@gmail.com"><img src="https://img.shields.io/badge/Email-152238?style=for-the-badge&logo=gmail&logoColor=4DE2FF" alt="Email" /></a>
   <a href="https://orcid.org/0009-0007-9544-063X"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
   <br /><br />
-  <img src="https://komarev.com/ghpvc/?username=jassermedhat&label=VISITORS&color=75E6F7&style=flat-square&abbreviated=true" alt="Profile visitor count" />
+  <img src="https://komarev.com/ghpvc/?username=jassermedhat&label=VISITORS&color=0F766E&style=flat-square&abbreviated=true" alt="Profile visitor count" />
 </div>
 
 <br />
