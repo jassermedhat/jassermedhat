@@ -127,5 +127,11 @@ I am interested in ambitious AI products, robotic systems, computer-vision appli
 <br />
 
 <div align="center">
+  <code>SYSTEM TELEMETRY // VISITOR SENSOR ONLINE</code>
+  <br /><br />
+  <img src="https://komarev.com/ghpvc/?username=jassermedhat&label=SIGNALS+RECEIVED&color=4DE2FF&style=flat-square&abbreviated=true" alt="Profile visitor count" />
+  <br /><br />
+  <sub>Thanks for leaving a signal in the lab.</sub>
+  <br />
   <sub>Built with models, sensors, APIs, and a suspicious amount of debugging.</sub>
 </div>
