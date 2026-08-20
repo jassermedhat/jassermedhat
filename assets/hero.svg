@@ -1,0 +1,80 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jasser Medhat — AI Engineer and Robotics Software Developer</title>
+  <desc id="desc">A dark futuristic banner illustrating the connection between data, artificial intelligence, software, and robotics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="20" x2="1120" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#11102B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="116" y1="92" x2="610" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DE2FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(995 168) rotate(90) scale(190)">
+      <stop stop-color="#4DE2FF" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#4DE2FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8DA2BF" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#4DE2FF" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <g transform="translate(84 66)">
+      <rect width="244" height="32" rx="16" fill="#4DE2FF" fill-opacity="0.09" stroke="#4DE2FF" stroke-opacity="0.42"/>
+      <circle cx="18" cy="16" r="4" fill="#45E6A8" filter="url(#softGlow)"/>
+      <text x="32" y="21" fill="#A7B6CE" font-size="13" font-weight="600" letter-spacing="1.8">INTELLIGENT SYSTEMS LAB</text>
+    </g>
+
+    <text x="84" y="166" fill="#F4F8FF" font-size="58" font-weight="750" letter-spacing="-1.5">JASSER MEDHAT</text>
+    <rect x="84" y="186" width="515" height="4" rx="2" fill="url(#accent)"/>
+    <text x="84" y="232" fill="#B9C7DA" font-size="22" font-weight="500">AI Engineer  ·  Robotics Software Developer</text>
+    <text x="84" y="277" fill="#7F93AE" font-size="17">Engineering AI systems that connect hardware, data, and people.</text>
+  </g>
+
+  <g transform="translate(790 50)">
+    <path d="M52 130H122M178 78L228 130M178 182L228 130M284 130H338" stroke="#4DE2FF" stroke-opacity="0.38" stroke-width="2"/>
+    <path d="M122 130L178 78M122 130L178 182" stroke="#A78BFA" stroke-opacity="0.38" stroke-width="2"/>
+
+    <g filter="url(#softGlow)">
+      <circle cx="52" cy="130" r="8" fill="#4DE2FF"/>
+      <circle cx="122" cy="130" r="10" fill="#A78BFA"/>
+      <circle cx="178" cy="78" r="7" fill="#4DE2FF"/>
+      <circle cx="178" cy="182" r="7" fill="#45E6A8"/>
+      <circle cx="228" cy="130" r="12" fill="#4DE2FF"/>
+      <circle cx="284" cy="130" r="8" fill="#A78BFA"/>
+      <circle cx="338" cy="130" r="10" fill="#45E6A8"/>
+    </g>
+
+    <circle cx="195" cy="130" r="119" stroke="#4DE2FF" stroke-opacity="0.08"/>
+    <circle cx="195" cy="130" r="92" stroke="#A78BFA" stroke-opacity="0.10"/>
+    <circle cx="195" cy="130" r="63" stroke="#4DE2FF" stroke-opacity="0.10" stroke-dasharray="4 8"/>
+
+    <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.3" fill="#7187A4">
+      <text x="29" y="158">SENSE</text>
+      <text x="104" y="158">DATA</text>
+      <text x="161" y="55">VISION</text>
+      <text x="146" y="210">ROBOTICS</text>
+      <text x="215" y="158">AI</text>
+      <text x="265" y="158">API</text>
+      <text x="318" y="158">IMPACT</text>
+    </g>
+  </g>
+
+  <g opacity="0.65">
+    <circle cx="1100" cy="49" r="2" fill="#4DE2FF"/>
+    <circle cx="1128" cy="78" r="1.5" fill="#A78BFA"/>
+    <circle cx="1062" cy="306" r="2" fill="#45E6A8"/>
+    <circle cx="746" cy="54" r="1.5" fill="#4DE2FF"/>
+  </g>
+</svg>

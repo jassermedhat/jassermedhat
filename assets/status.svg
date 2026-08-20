@@ -1,0 +1,41 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Current system status</title>
+  <desc id="desc">Jasser is building end-to-end intelligent systems and exploring embodied AI and vision-language-action models.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#11102B"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="19" stroke="#4DE2FF" stroke-opacity="0.16" stroke-width="2"/>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <circle cx="72" cy="58" r="6" fill="#45E6A8" filter="url(#glow)"/>
+    <text x="91" y="64" fill="#F4F8FF" font-size="20" font-weight="700" letter-spacing="1.5">SYSTEM STATUS</text>
+    <text x="1102" y="63" text-anchor="end" fill="#45E6A8" font-size="12" font-weight="700" letter-spacing="1.2">ONLINE</text>
+
+    <line x1="60" y1="88" x2="1140" y2="88" stroke="#8DA2BF" stroke-opacity="0.16"/>
+
+    <g font-size="14">
+      <text x="72" y="127" fill="#6F86A4" font-weight="700" letter-spacing="1.4">MODE</text>
+      <text x="265" y="127" fill="#D8E4F3">Building complete intelligent systems</text>
+
+      <text x="72" y="167" fill="#6F86A4" font-weight="700" letter-spacing="1.4">FOCUS</text>
+      <text x="265" y="167" fill="#D8E4F3">AI engineering · robotics · computer vision · backend systems</text>
+
+      <text x="72" y="207" fill="#6F86A4" font-weight="700" letter-spacing="1.4">EXPLORING</text>
+      <text x="265" y="207" fill="#D8E4F3">Embodied AI · VLA architectures · multimodal autonomous systems</text>
+
+      <text x="72" y="247" fill="#6F86A4" font-weight="700" letter-spacing="1.4">OUTPUT</text>
+      <text x="265" y="247" fill="#D8E4F3">Models, datasets, APIs, applications, robots — and occasionally bugs</text>
+    </g>
+
+    <text x="1124" y="273" text-anchor="end" fill="#526983" font-size="11">MANUAL UPDATE · AUG 2026</text>
+  </g>
+</svg>
