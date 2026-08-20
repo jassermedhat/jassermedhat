@@ -10,6 +10,8 @@
   <a href="https://www.linkedin.com/in/jasser-medhat"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:jasser782004@gmail.com"><img src="https://img.shields.io/badge/Email-152238?style=for-the-badge&logo=gmail&logoColor=4DE2FF" alt="Email" /></a>
   <a href="https://orcid.org/0009-0007-9544-063X"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+  <br /><br />
+  <img src="https://komarev.com/ghpvc/?username=jassermedhat&label=VISITORS&color=75E6F7&style=flat-square&abbreviated=true" alt="Profile visitor count" />
 </div>
 
 <br />
@@ -127,11 +129,5 @@ I am interested in ambitious AI products, robotic systems, computer-vision appli
 <br />
 
 <div align="center">
-  <code>SYSTEM TELEMETRY // VISITOR SENSOR ONLINE</code>
-  <br /><br />
-  <img src="https://komarev.com/ghpvc/?username=jassermedhat&label=SIGNALS+RECEIVED&color=4DE2FF&style=flat-square&abbreviated=true" alt="Profile visitor count" />
-  <br /><br />
-  <sub>Thanks for leaving a signal in the lab.</sub>
-  <br />
   <sub>Built with models, sensors, APIs, and a suspicious amount of debugging.</sub>
 </div>
