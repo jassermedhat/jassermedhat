@@ -104,7 +104,7 @@ I am comfortable owning the full path from an idea to a working system. Dependin
 
 </details>
 
-## The journey so far
+<!-- ## The journey so far
 
 | Stage | Direction |
 | :--- | :--- |
@@ -112,7 +112,7 @@ I am comfortable owning the full path from an idea to a working system. Dependin
 | **2022–2025** | Built perception, navigation, HRI, and spatial-reasoning software through three RoboCup seasons. |
 | **2024–2026** | Expanded into computer vision, embedded intelligence, research, and full-stack AI engineering. |
 | **2026** | Graduated and co-authored published edge-AI research. |
-| **Next** | Deeper work in embodied intelligence, VLA models, and dependable autonomous systems. |
+| **Next** | Deeper work in embodied intelligence, VLA models, and dependable autonomous systems. | -->
 
 ## Let’s build something useful
 
