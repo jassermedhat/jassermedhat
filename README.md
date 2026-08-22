@@ -51,7 +51,7 @@ I am comfortable owning the full path from an idea to a working system. Dependin
 | **[VisionCart](https://github.com/jassermedhat/visioncart-autonomous-checkout)** | Autonomous computer-vision checkout that turns camera input into a reviewable basket and receipt using YOLO, FastAPI, and React. |
 | **[RecomAI](https://github.com/jassermedhat/RecomAI)** | Local, explainable AI shopping assistant with structured LLM recommendations, deterministic ranking, persistent buyer memory, FastAPI, and React. |
 | **[Medical Record Integrity Checker](https://github.com/jassermedhat/medical-record-blockchain-integrity)** | Educational blockchain prototype for detecting tampered medical files using local SHA-256 fingerprinting, Solidity, Hardhat, and role-aware workflows. |
-| **AI Sports Training Platform** | Full-stack AI and RAG system for personalized planning, conversational support, and resource management using React, FastAPI, PostgreSQL, Docker, FAISS, and Gemini. |
+| **[TrainSignal](https://github.com/jassermedhat/trainsignal.git)** | Evidence-grounded AI sports training assistant with pgvector RAG, hybrid reranking, explainable athlete-readiness workflows, and structured training planning using React, FastAPI, PostgreSQL, and Gemini. |
 
 <details>
 <summary><strong>More projects and experiments</strong></summary>
